@@ -1,9 +1,10 @@
 package com.example.nearby.data.model
 
 import androidx.annotation.DrawableRes
-import com.example.nearby.ui.component.category.NearbyCategoryFilterChip
+import kotlinx.serialization.Serializable
 
-data class NearbyCategory(
+@Serializable
+data class Category(
     val id: String,
     val name: String,
 ){

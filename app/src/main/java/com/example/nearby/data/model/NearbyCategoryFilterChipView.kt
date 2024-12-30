@@ -8,13 +8,14 @@ enum class NearbyCategoryFilterChipView(
     @DrawableRes val icon: Int
 ) {
     ALIMENTACAO("Alimentação", icon = R.drawable.ic_tools_kitchen_2),
-    COMPRAS("Alimentação", icon = R.drawable.ic_shopping_bag),
-    HOSPEDAGEM("Alimentação", icon = R.drawable.ic_bed),
-    SUPERMERCADO("Alimentação", icon = R.drawable.ic_shopping_cart),
-    ENTRETENIMENTO("Alimentação", icon = R.drawable.ic_movie),
-    FARMACIA("Alimentação", icon = R.drawable.ic_first_aid_kit),
-    COMBUSTIVEL("Alimentação", icon = R.drawable.ic_gas_station),
-    PADARIA("Alimentação", icon = R.drawable.ic_bakery);
+    COMPRAS("Compras", icon = R.drawable.ic_shopping_bag),
+    HOSPEDAGEM("Hospedagem", icon = R.drawable.ic_bed),
+    SUPERMERCADO("Supermercado", icon = R.drawable.ic_shopping_cart),
+    ENTRETENIMENTO("Entretenimento", icon = R.drawable.ic_movie),
+    FARMACIA("Farmacia", icon = R.drawable.ic_first_aid_kit),
+    COMBUSTIVEL("Combustivel", icon = R.drawable.ic_gas_station),
+    CINEMA("Cinema", icon = R.drawable.ic_movie),
+    PADARIA("Padaria", icon = R.drawable.ic_bakery);
 
     companion object {
         fun fromDescription(description: String): NearbyCategoryFilterChipView? {
